@@ -27,8 +27,7 @@ function rand(min, max) {
 
 // UI elements
 
-const game = document.getElementById("game"),
-  minNum = document.querySelector(".min"),
+const minNum = document.querySelector(".min"),
   maxNum = document.querySelector(".max"),
   guessBtn = document.querySelector("#guessBtn"),
   input = document.querySelector("#guessField"),
